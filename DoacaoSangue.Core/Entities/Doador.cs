@@ -2,9 +2,8 @@
 
 namespace DoacaoSangue.Core.Entities
 {
-    public class Doador
+    public class Doador : Entitie
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Sobrenome { get; set; }
         public string Email { get; set; }

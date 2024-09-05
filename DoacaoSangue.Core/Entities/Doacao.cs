@@ -1,8 +1,7 @@
 ﻿namespace DoacaoSangue.Core.Entities
 {
-    public class Doacao
+    public class Doacao : Entitie
     {
-        public Guid Id { get; set; }
         public DateTime DataDoacao { get; set; }
         public int QuantiadeMl { get; set; }
         public Doador Doador { get; set; }
